@@ -72,9 +72,9 @@ st.write("Berdasarkan Table 53 ASTM-IP.")
 
 col1, col2 = st.columns(2)
 with col1:
-    temp_input = st.number_input("Observed Temperature (°C)", value=7.5, step=0.5, format="%.1f")
-with col2:
     density_input = st.number_input("Observed Density", value=0.705, step=0.001, format="%.3f")
+with col2:
+    temp_input = st.number_input("Observed Temperature (°C)", value=7.5, step=0.5, format="%.1f")
 
 col3, col4 = st.columns([1, 1])
 with col3:
